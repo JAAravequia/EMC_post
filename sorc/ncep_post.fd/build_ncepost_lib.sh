@@ -9,6 +9,10 @@ if [ $mac2 = hf ] ; then                        # For Hera
  machine=hera
  . /etc/profile
  . /etc/profile.d/modules.sh
+elif [ $mac2 = Or  ] ; then            # For Orion
+ machine=orion
+ . /etc/profile
+# . /etc/profile.d/modules.sh
 elif [ $mac = f  ] ; then            # For Jet
  machine=jet
  . /etc/profile
