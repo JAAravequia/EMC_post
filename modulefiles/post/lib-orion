@@ -26,9 +26,8 @@ setenv version v8.0.0
 #
 
 module purge
-
 # Loading Intel Compiler Suite
-module load intel/2018.4 
+module load intel/2018.4
 module load impi/2018.4
 
 # Loading nceplibs modules
@@ -48,5 +47,4 @@ module load gfsio/1.2.0
 module load ip/3.0.2
 module load sp/2.0.3
 module load crtm/2.3.0
-
 
